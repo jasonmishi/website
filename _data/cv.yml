@@ -1,3 +1,10 @@
+design:
+  theme: classic
+  templates:
+    normal_entry:
+      main_column: "**NAME**\nISSUER\nAWARDER\nSUMMARY\nHIGHLIGHTS"
+      date_and_location_column: "DATE"
+
 cv:
   name: Jason (Mishike) Carvalho
   headline: Senior Software Engineer
@@ -6,42 +13,53 @@ cv:
   location: "Wattala, Colombo, Sri Lanka"
   photo: "../assets/img/cv_pic.jpg"
   social_networks:
+    - network: LinkedIn
+      username: jasonmishi
+    - network: GitHub
+      username: jasonmishi
   sections:
     Summary:
-      - "Generalist Software Engineer with a focus on Artificial Intelligence, automation and full stack web-development. Capable of using a combination of technical and people skills to deliver high-quality system solutions. Interested in how things and people work. Broad technical expertise in software design and development, machine learning, and data science. Adoptable and interested in varying technology engineering roles."
+      - "Senior Software Engineer with 6+ years of general engineering experience delivering scalable software systems across multiple domains. Experienced across the stack: from architecting AI/ML systems (LLMs, RAG, agentic workflows, vector databases) and cloud-native platforms (AWS, Kubernetes, Terraform, GitHub Actions) to crafting modern web applications (Vue.js, Django, FastAPI). Brings a data-driven, people-focused approach to driving outcomes across distributed teams. Adept at driving DevOps transformation and working across changing technical contexts. Curious about how things and people work. Adaptable and interested in varying technology engineering roles."
     Experience:
       - company: Innodata Inc. (Innodata Lanka)
         position: Senior Machine Learning Engineer
         url: "https://innodata.com/"
         start_date: 2024-07-01
-        summary: "Architect and deploy multi-lingual, multi-region AI solutions for major global publishers, ensuring GDPR and ISO 27001 compliance. Develop internal tools for FANG and tech company projects. Drive company transformation through CI/CD, serverless architectures, and DevOps best practices."
+        summary: >
+          Leading AI solution architecture and engineering for global publishing clients.
+          Driving cloud-native transformation across the organization through DevOps,
+          platform engineering, and architectures spanning serverless, Kubernetes, and
+          traditional EC2.
         highlights:
-          - Introduced the use of CICD and Code Quality tools such as SonarQube to the company.
-          - "Utilized serverless, containerized architectures to reduce costs in low traffic AI solutions."
-          - "Architected highly available, multi-region deployed multi-lingual AI solutions for publishing clients."
-          - Introduced the company to IaC in line with customer requirements.
-          - Helping with efforts to containerize legacy applications
+          - "**AI/ML Delivery:** Designed and deployed multilingual, multi-region NLP solutions using LLMs with RAG and agentic workflows for major publishers."
+          - "**AI Research Data:** Contributed to cutting-edge long-horizon computer-use agent dataset work (reinforcement learning gym) for a global frontier AI lab, part of a $40M realized revenue program."
+          - "**AI Research Data:** Worked on long-horizon SWE-bench-style dataset projects for global AI and cloud technology leaders."
+          - "**AI/ML Delivery:** Architected an AWS SaaS platform forecast to generate $1M+ annual revenue, with full HA/DR strategy."
+          - "**DevOps Transformation:** Introduced CI/CD with zero-downtime deployments, SonarQube, and Infrastructure as Code across engineering teams."
+          - "**DevOps Transformation:** Architected the company's first Kubernetes-native application, combining K8s with GitOps (ArgoCD, Argo Rollouts, Istio) for vendor-neutral scalability."
+          - "**Leadership:** Mentored a multinational squad of engineers and drove AI adoption across the development lifecycle."
       - company: 20C / FullCtl
         position: Software Engineer
         url: "https://20c.com/"
         start_date: 2022-02-01
         end_date: 2024-07-01
-        summary: Developed full-stack network automation tools at open source first company specializing in network security. Built and maintained FullCtl peering management and network automation tools. Contributed to maintaining PeeringDB open source project. Led frontend development initially with legacy vanilla JS library and then later migration effort to Vue.js. Did backend work with Python and Django.
+        summary: Developed full-stack network automation tools at open-source-first company specializing in network security. Built and maintained FullCtl peering management and network automation tools. Contributed to maintaining PeeringDB open source project. Led frontend development initially with legacy vanilla JS library and then later migration effort to Vue.js. Did backend work with Python and Django.
         highlights:
-          - Introduced the use of Vue.js instead of an inhouse vanilla JS framework.
-          - Took over and maintained a project for a internet exchange standards organization that was previously developed by another company when there was no experience within the company for the technology stack used.
-          - OpenSource contributions to PeeringDB
-          - Overhaul of UI for fullctl
-          - Developed and help deploy many documentation and client websites using fully automated CI/CD
+          - Introduced the use of Vue.js instead of an in-house vanilla JS framework.
+          - Took over and maintained a project for an internet exchange standards organization when there was no experience within the company for the technology stack used.
+          - Open source contributions to PeeringDB.
+          - Overhaul of UI for FullCtl.
+          - Developed and helped deploy many documentation and client websites using fully automated CI/CD.
       - company: Innodata Inc. (Innodata Lanka)
         position: Software Engineer
         url: "https://innodata.com/"
         start_date: 2020-04-01
         end_date: 2022-02-01
-        summary: Was hired in some of the company's first outsourcing software development projects. Initially in a data engineering/web scraping project and then assigned as the only frontend engineer in a project to develop a WYSIWYG custom XML editor for one the largest standards organizations. This product has become a key part of the company's product line.
+        summary: Was hired in some of the company's first outsourcing software development projects. Initially in a data engineering/web scraping project and then assigned as the lead frontend engineer to develop a WYSIWYG custom XML editor for one of the largest standards organizations. This product has become a key part of the company's product line.
         highlights:
+          - Developed and designed a custom WYSIWYG XML web editor with custom formats and plugins for a large standards organization.
+          - Developed and maintained web scraping and data-engineering scripts including OCR.
           - POC for a serverless containerized web scraping solution using AWS Lambda and Docker.
-          - Developed and designed a custom WYSIWYG XML editor with custom formats and plugins for a large standards organization.
     Volunteer:
       - company: Toastmasters International
         position: Member (ExCo 2023–2024)
@@ -65,57 +83,57 @@ cv:
       - name: Linux Systems Administration and DevOps Engineering scholarship
         date: 2026-04-01
         awarder: WSO2
-        summary: One of the 200 (out of 5000) applicants selected to participate in and complete a comprehensive course on modern cloud operations conducted by WSO2 including kubernetes, terraform, Zero trust security, linux adminsiatation and CI/CD principles, one for the 130 people to complete the program successfully.
-      - name: IIT Excelence Award
+        summary: One of the 200 (out of 5000) applicants selected to participate in and complete a comprehensive course on modern cloud operations conducted by WSO2 including Kubernetes, Terraform, zero trust security, Linux administration, and CI/CD principles; one of the 130 people to complete the program successfully.
+      - name: IIT Excellence Award
         date: 2024-12-31
         awarder: Informatics Institute of Technology
         summary: Awarded for outstanding performance and contribution to the university community.
-      - name: Predicta 1.0 - Second Runners Up
+      - name: Predicta 1.0 - Second Runner-up
         date: 2024-05-30
         awarder: IEEE - University of Peradeniya
         url: "https://web.archive.org/web/20250510115153/https://ieee.soc.pdn.ac.lk/events/predicta"
         summary: AI hackathon organized by IEEE - University of Peradeniya. Team DataDragons.
       - name: Champion - Parallax 2022
         date: 2022-05-30
-        awarder: Rotract Club of Informatics Institute of Technology
+        awarder: Rotaract Club of Informatics Institute of Technology
         summary: Designathon and hackathon for web UI/UX and web development.
-      - name: Haxmas 2022 - First Runners up
+      - name: Haxmas 2022 - First Runner-up
         date: 2022-05-30
-        awarder: Rotract Club of Informatics Institute of Technology
-        summary: "Ideathon and hackathon sponsored and hosted by Ascentic, organized by Rotract Club of IIT."
+        awarder: Rotaract Club of Informatics Institute of Technology
+        summary: "Ideathon and hackathon sponsored and hosted by Ascentic, organized by Rotaract Club of IIT."
       - name: InfoSchol Scholarship - 2021 Jan
         date: 2021-01-01
         awarder: Informatics Institute of Technology
-        summary: One of 70 recipeients for the Scholarship that covers the entire tuition fee for the BEng Software Engineering degree by working at selected companies.
+        summary: One of 70 recipients for the scholarship that covers the entire tuition fee for the BEng Software Engineering degree by working at selected companies.
     Certificates:
       - name: Linux Systems Administration and DevOps Engineering
         date: 2026-04-01
         issuer: WSO2
-        icon: fa-solid fa-location-dot
-      - name: "Professional Certificate: Tiny Machine Learning (TinyML)"
-        date: 2021-11-01
-        issuer: HarvardX
-        url: "https://credentials.edx.org/credentials/6a47bab396284f1c935965e152ee9bbb/"
         icon: fa-solid fa-location-dot
       - name: Software Architecture Foundations
         date: 2022-05-01
         issuer: LinkedIn
         url: "https://www.linkedin.com/learning/certificates/d8f04fb6ae5c17fffc5465c700f5dda4aac1f00f38e2d632e297bab083dc08d5?accountId=76664938&u=76664938&success=true&authUUID=0T02qg1wTHKheEBALozDfQ%3D%3D"
         icon: fa-solid fa-tag
+      - name: "Professional Certificate: Tiny Machine Learning (TinyML)"
+        date: 2021-11-01
+        issuer: HarvardX
+        url: "https://credentials.edx.org/credentials/6a47bab396284f1c935965e152ee9bbb/"
+        icon: fa-solid fa-location-dot
     Skills:
       - label: Artificial Intelligence and Machine Learning
-        details: "tensorflow, TinyML, Natural Language Processing, pandas, langchain, R, Data Analysis, Python"
+        details: "TensorFlow, LLMs, LangChain, agentic coding harnesses, FAISS, Qdrant, OpenSearch, Google Colab, TinyML, Natural Language Processing, pandas, R, Data Analysis, Python"
       - label: "DevOps, Linux and Cloud"
         details: "python, AWS, Docker, Kubernetes, ArgoCD, Argo Rollouts, Istio, Terraform, Git, NixOS, Linux, GitHub Actions, CI/CD, Serverless"
       - label: Web Development
-        details: "JavaScript, Vue.js, TypeScript, CSS, Django, FastAPI, React, Electron, Git, Python, Wordpress"
+        details: "JavaScript, Vue.js, TypeScript, CSS, Django, FastAPI, React, Electron, Git, Python, WordPress"
     Languages:
       - label: English
         details: Fluent
       - label: Sinhala
         details: Proficient
     Interests:
-      - label: Phychology
+      - label: Psychology
         details: "metacognition, learning theories, memory, stress"
       - label: Music
         details: "guitar, singing, songwriting"
