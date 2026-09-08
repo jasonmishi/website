@@ -2,6 +2,7 @@
 layout: book-review
 title: "The Hobbit"
 author: "J. R. R. Tolkien"
+cover: assets/img/book_covers/the_hobbit_tolkien.jpg
 olid: OL51711263M
 categories: fiction fantasy classics
 started: 2026-03-08
