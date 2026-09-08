@@ -35,7 +35,7 @@
       "summary": "Leading AI solution architecture and engineering for global publishing clients. Driving cloud-native transformation across the organization through DevOps, platform engineering, and architectures spanning serverless, Kubernetes, and traditional EC2.",
       "highlights": [
         "AI/ML Delivery: Designed and deployed multilingual, multi-region NLP solutions using LLMs with RAG and agentic workflows for major publishers.",
-        "AI Research Data: Contributed to cutting-edge long-horizon computer-use agent dataset work for a global frontier AI lab, part of a $100M future revenue program.",
+        "AI Research Data: Contributed to cutting-edge long-horizon computer-use agent dataset work (reinforcement learning gym) for a global frontier AI lab, part of a $40M realized revenue program.",
         "AI Research Data: Worked on long-horizon SWE-bench-style dataset projects for global AI and cloud technology leaders.",
         "AI/ML Delivery: Architected an AWS SaaS platform forecast to generate $1M+ annual revenue, with full HA/DR strategy.",
         "DevOps Transformation: Introduced CI/CD with zero-downtime deployments, SonarQube, and Infrastructure as Code across engineering teams.",
@@ -93,6 +93,7 @@
       "startDate": "2021-01-01",
       "endDate": "2026-05-01",
       "score": "Distinction (Hons ongoing)",
+      "summary": "Grade for BEng: Distinction (Hons ongoing). Extended timeline due to concurrent work responsibilities.",
       "courses": [
         "Artificial Intelligence & Data Science",
         "Concurrent Programming",
