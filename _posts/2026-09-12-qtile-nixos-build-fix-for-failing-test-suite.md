@@ -2,7 +2,7 @@
 layout: post
 title: Qtile NixOS build fix for failing test suite
 date: 2026-09-12
-description: How I worked around failing Qtile checks during a NixOS rebuild.
+description: How to work around failing Qtile pytest checks during a NixOS rebuild.
 tags: linux nixos qtile
 categories: Linux NixOS
 ---
